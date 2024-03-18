@@ -3,68 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website Title</title>
-    <style>
-        /* Add your CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            text-align: center;
-        }
-        .logo {
-            max-width: 200px;
-            margin-bottom: 20px;
-        }
-        h1 {
-            font-size: 36px;
-            margin-bottom: 10px;
-        }
-        p {
-            font-size: 16px;
-            margin-bottom: 20px;
-        }
-        .social-links {
-            margin-bottom: 20px;
-        }
-        .social-links a {
-            margin: 0 10px;
-            font-size: 24px;
-            color: #333;
-        }
-        .how-to-buy,
-        .tokenomics {
-            background-color: #fff;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-    </style>
+    <title>Your MemeCoin Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
 </head>
 <body>
-    <div class="container">
-        <img src="your-logo.png" alt="Your Logo" class="logo">
-        <h1>Your Website Title</h1>
-        <p>Your Website Description</p>
-        
-        <div class="social-links">
-            <a href="https://twitter.com/your_twitter_link" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://t.me/your_telegram_link" target="_blank"><i class="fab fa-telegram"></i></a>
-        </div>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#how-to-buy">How to Buy</a></li>
+            <li><a href="#tokenomics">Tokenomics</a></li>
+            <li><a href="#whitepaper">Whitepaper</a></li>
+        </ul>
+    </nav>
 
-        <div class="how-to-buy">
+    <div id="about" class="section">
+        <div class="content">
+            <h2>About</h2>
+            <p>Explanation about your Memecoin and an image here</p>
+        </div>
+    </div>
+
+    <div id="how-to-buy" class="section">
+        <div class="content">
             <h2>How to Buy</h2>
-            <p>Your instructions on how to buy.</p>
+            <p>Explanation about how to buy your Memecoin and an image here</p>
         </div>
+    </div>
 
-        <div class="tokenomics">
+    <div id="tokenomics" class="section">
+        <div class="content">
             <h2>Tokenomics</h2>
-            <p>Your tokenomics information.</p>
+            <p>Explanation about the tokenomics of your Memecoin and an image here</p>
+        </div>
+    </div>
+
+    <div id="whitepaper" class="section">
+        <div class="content">
+            <h2>Whitepaper</h2>
+            <p>Link to your Whitepaper document and an image here</p>
         </div>
     </div>
 </body>
